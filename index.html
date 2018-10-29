@@ -1,45 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
+<header>
   <meta charset="utf-8">
   <title>Henry Hsieh's Personal Website</title>
-  <link rel="stylesheet" href="resources/style.css"</link>
-</head>
-<body>
-<div class="header">
-  <div class="nav" id="nav">
-    <ul>
-      <li><a>Home</a></li>
-      <li><a>Contact</li>
-      <li><a>Projects</a>
-        <ul>
-          <li><a>The Tank</a>
-          <li><a>Simple Clock</a>
-        </ul>
-      </li>
-      <li><a>About</a></li>
-      <li><a>Work Experience</a></li>
-    </ul>
-  </div>
+  <link rel="stylesheet" href="style.css"</link>
+    <h1 class="logo"></h1>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <img src="pictures/logo2.png" width="100" height="100">
+        <nav>
+
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="resources/about.html">About</a></li>
+            <li><a href="resources/contact.html">Contact</a></li>
+            <li><a href="resources/projects.html">Projects</a></li>
+            <li><a href="resources/work.html">Work Experience</a></li>
+          </ul>
+        </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+</header>
+
+<div class="content">
+<h2 style="color:white">Welcome to Henry's Personal Website</h2>
 </div>
-
-<div class="box"></div>
-<!-- javascript for scrolling -->
-  <!-- <script type="text/javascript">
-    var nav = document.getElementById('nav');
-      window.scroll = function(){
-        if (window.pageYOffset > 100){
-          // nav.style.background = "#007bff";
-          nav.style.boxShadow = "0px 4px 2px grey"
-        }
-        else{
-          nav.style.background = "transparent";
-          nav.style.boxShadow = "none";
-        }
-      }
-
-  </script> -->
-
-</body>
-
 </html>
