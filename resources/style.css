@@ -201,7 +201,7 @@ nav ul li a:hover {
   margin: 10px;
   border-radius: 30%;
   box-shadow: 0 5px 15px -5px #00000070;
-  color: #3498db;
+  color: #34db79;
   overflow: hidden;
   position: relative;
 }
@@ -219,7 +219,7 @@ nav ul li a:hover {
   position: absolute;
   width: 120%;
   height: 120%;
-  background: #3498db;
+  color: #34db79;
   transform: rotate(45deg);
   left: -110%;
   top: 90%;
